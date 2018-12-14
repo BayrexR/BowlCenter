@@ -1,7 +1,7 @@
 INSTRUCTIONS FOR FOR LOADING ETL PROJECT
 --------
-1)Click on link https://bowl-center.herokuapp.com/
-2)Once you have navigated to the Welcome page, the ETL Report is located in the hamburger menu under API Docs>ETL Process
+1) Click on link https://bowl-center.herokuapp.com/ 
+2) Once you have navigated to the Welcome page, the ETL Report is located in the hamburger menu under API Docs>ETL Process
 
 
 
