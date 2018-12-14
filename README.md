@@ -7,9 +7,12 @@
 
 <h1>Flask App Deployment</h1>
 ---------------------
+1) Prepare your Flask App for Heroku
+2) Create a Heroku Account
+3) Install Heroku CLI and Deploy your APP
+4) Notes
 
-
-Prepare your Flask App for Heroku deployment
+Prepare your Flask App for Heroku
 ----------
    Heroku needs a few more things than what we have on our locally hosted Flask apps to run. More specifically, we add a webserver dependency, create a requirements.txt file, and add a Procfile.
    
@@ -66,10 +69,10 @@ Install Heroku CLI and Deploy your APP
    
    
 Notes
-----------
+---------
 
-Version control
----------------
+**Version control:**
+
   When developing using Heroku it is best to use the following workflow:
    * Start GitHub repo
    * Build a local working app (not necessarily a complete app just one that loads)
@@ -79,21 +82,22 @@ Version control
    * While working on your app, push updates to your [appName]-heroku GitHub (git push origin master) repo then deploy to Heroku (git push heroku master)
    
 
-Databases
-----------
+**Databases:**
+
   If your app uses a database you will need to add a database add-on in Heroku and modify your source code connection strings and queries to work with your new cloud hosted db. In this case we used the JawsDB MySQL Heroku add-on as our persistent storage solution.
   
   
-Config files are your friend
------------------------
+**Config files are your friend:**
+
   Maintain both local and deployed versions of your app in separate repos. This allows you to work on features on the local version (much faster), copy the working code to your files in the deployed repo, and push to Heroku to deploy. Use config files and variables for DBs, connection strings, and tables declared early in your code and imported anywhere needed. This way your config values are all located in one central location and can be easily modified when environments change.
 
-Patience
-----------
+
+**Patience:**
+
   Free Heroku accounts do not get priority when it comes to refreshng and up time. Be ready for the following:
   * It might take a couple of minutes for changes to reflect in your deplyed apps. This is the reason it is important to keep both local and deployed versions of your app repos. 
   * To save on resources, Heroku puts idle apps to sleep (unless you want to pay). No big deal. Your app will just take a few extra seconds wake up and serve content but will stay away for a while after.
   
-Free Add-ons not always free
------------
+**Free Add-ons not always free:**
+
   Free Heroku add-ons are usually free to a point. After that they will start to charge your account so be careful and mindful of what you deploy and how you deply it.
