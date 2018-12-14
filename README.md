@@ -1,4 +1,4 @@
-###INSTRUCTIONS FOR ETL PROJECT###
+###INSTRUCTIONS FOR ETL PROJECT
 
 MAKE SURE THE FOLLOWING STEPS ARE TAKEN BEFORE THE WEBPAGE CAN RUN
 
@@ -18,6 +18,6 @@ MAKE SURE THE FOLLOWING STEPS ARE TAKEN BEFORE THE WEBPAGE CAN RUN
 
 8)Once you have navigated to the Welcome page, the ETL Report is located in the hamburger menu under API Docs>ETL Process
 
-###OR.....###
+#OR.....
 You can click this link to access the version of this app deployed to Heroku! :)
 https://bowl-center.herokuapp.com/
