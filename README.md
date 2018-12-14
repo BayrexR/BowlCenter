@@ -6,10 +6,13 @@
 <br/><br/><br/>
 
 <h1>Flask App Deployment</h1>
----------------------
+
 1) Prepare your Flask App for Heroku
+
 2) Create a Heroku Account
+
 3) Install Heroku CLI and Deploy your APP
+
 4) Notes
 
 Prepare your Flask App for Heroku
