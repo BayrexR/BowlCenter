@@ -20,7 +20,7 @@ logging.getLogger('sqlalchemy.engine').setLevel(logging.DEBUG)
 #=======================
 #    Database Connection
 #=======================
-conn_string = f"{c.username}:{c.password}@127.0.0.1/football_db"
+conn_string = f"{c.username}:{c.password}@k9xdebw4k3zynl4u.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/s7jnv52ivalrzp26"
 engine = create_engine(f'mysql://{conn_string}')
 
 
