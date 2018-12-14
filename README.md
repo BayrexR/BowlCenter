@@ -7,7 +7,9 @@
 
 <h1>Flask App Deployment</h1>
 
-1) Prepare your Flask App for Heroku
+http://github.com - automatic!
+[1) Prepare your Flask App for Heroku](https://github.com/BayrexR/BowlCenter/blob/master/README.md#prepare-your-flask-app-for-heroku)
+
 
 2) Create a Heroku Account
 
