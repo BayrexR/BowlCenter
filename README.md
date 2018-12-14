@@ -4,7 +4,7 @@ INSTRUCTIONS FOR FOR LOADING ETL PROJECT
 2) Once you have navigated to the Welcome page, the ETL Report is located in the hamburger menu under API Docs>ETL Process
 <br/><br/><br/>
 
-Flask App Deployment
+##Flask App Deployment
 ---------------------
 
 
@@ -51,7 +51,7 @@ Install Heroku CLI and Deploy your APP
   **Install:**
    * Go to https://devcenter.heroku.com/articles/heroku-cli to download the file for your OS. Follow the installation instructions.
    
-  **Sign in to Heroku CLI:**
+  **Sign in to Heroku CLI and Deploy:**
    * Open your terminal and run the following commands to log into your Heroku account.
       * $ heroku login
          * Enter your username and password when prompted
