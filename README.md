@@ -28,10 +28,10 @@ Prepare your Flask App for Heroku deployment
   
    Procfile:
    Heroku will need to know what and how to lauch the app. This file tells it exactly what webserver to use and what to launch.
-    * Open your favorite code editor and navigate to your app root folder.
-    * Create a file titled "Procfile" (do not add an extension!)
-    * Insert the following into your Procfile"
-       * web:gunicorn app:app (this assumes your Flask app uses app.py as you server file. Else use app:[yourFlaskAppFile])
+   * Open your favorite code editor and navigate to your app root folder.
+   * Create a file titled "Procfile" (do not add an extension!)
+   * Insert the following into your Procfile"
+      * web:gunicorn app:app (this assumes your Flask app uses app.py as you server file. Else use app:[yourFlaskAppFile])
        
 
 Create a Heroku Account
