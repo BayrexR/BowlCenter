@@ -81,3 +81,18 @@ Version control
 Databases
 ----------
   If your app uses a database you will need to add a database add-on in Heroku and modify your source code connection strings and queries to work with your new cloud hosted db. In this case we used the JawsDB MySQL Heroku add-on as our persistent storage solution.
+  
+  
+Config files are your friend
+-----------------------
+  Maintain both local and deployed versions of your app in separate repos. This allows you to work on features on the local version (much faster), copy the working code to your files in the deployed repo, and push to Heroku to deploy. Use config files and variables for DBs, connection strings, and tables declared early in your code and imported anywhere needed. This way your config values are all located in one central location and can be easily modified when environments change.
+
+Patience
+----------
+  Free Heroku accounts do not get priority when it comes to refreshng and up time. Be ready for the following:
+  * It might take a couple of minutes for changes to reflect in your deplyed apps. This is the reason it is important to keep both local and deployed versions of your app repos. 
+  * To save on resources, Heroku puts idle apps to sleep (unless you want to pay). No big deal. Your app will just take a few extra seconds wake up and serve content but will stay away for a while after.
+  
+Free Add-ons not always free
+-----------
+  Free Heroku add-ons are usually free to a point. After that they will start to charge your account so be careful and mindful of what you deploy and how you deply it.
