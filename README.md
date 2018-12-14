@@ -42,7 +42,8 @@ Prepare your Flask App for Heroku
    * Create a file titled "Procfile" (do not add an extension!)
    * Insert the following into your Procfile"
       * web:gunicorn app:app (this assumes your Flask app uses app.py as you server file. Else use app:[yourFlaskAppFile])
-       
+
+[(back to top)](https://github.com/BayrexR/BowlCenter/blob/master/README.md#flask-app-deployment)       
 
 Create a Heroku Account
 --------------------
@@ -50,7 +51,8 @@ Create a Heroku Account
    * Go to https://www.heroku.com/ and create a free account. Remember your username/password and keep them safe.
    * Once you are logged in, go to Dashboard > New > Create new app
       * Give your app a name and then click "create app"
-   
+
+[(back to top)](https://github.com/BayrexR/BowlCenter/blob/master/README.md#flask-app-deployment)    
 
 Install Heroku CLI and Deploy your APP
 --------------
@@ -70,7 +72,8 @@ Install Heroku CLI and Deploy your APP
       * git add .
       * git commit -am "Initial Heroku deployment."
       * git push heroku master
-   
+
+[(back to top)](https://github.com/BayrexR/BowlCenter/blob/master/README.md#flask-app-deployment) 
    
 Notes
 ---------
@@ -105,3 +108,5 @@ Notes
 **Free Add-ons not always free:**
 
   Free Heroku add-ons are usually free to a point. After that they will start to charge your account so be careful and mindful of what you deploy and how you deply it.
+
+[(back to top)](https://github.com/BayrexR/BowlCenter/blob/master/README.md#flask-app-deployment) 
