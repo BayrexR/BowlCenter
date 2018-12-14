@@ -12,14 +12,14 @@ Prepare your Flask App for Heroku deployment
 ----------
    Heroku needs a few more things than what we have on our locally hosted Flask apps to run. More specifically, we add a webserver dependency, create a requirements.txt file, and add a Procfile.
    
-  Webserver (gunicorn):
+  **Webserver (gunicorn):**
    * Open the terminal and navigate to your root (top) app folder.
    * Activate your python environment.
       * $ source activate <yourEnvironmentName>
    * Run the following command to install gunicorn, a webserver dependency.
       * $ pip install gunicorn
    
-  requirements.txt:
+  **requirements.txt:**
   
    Heroku needs to know your dependencies. That is accomplished by creating a requirements.txt file using the following steps:
    * Make sure you are still in your app's root directory and your python enviroment is still active. If not follow the first two items in the webserver step.
@@ -27,7 +27,7 @@ Prepare your Flask App for Heroku deployment
       * $ pip freeze > requirements.txt
       * You can run this command again to update your requirements.txt file if you add more dependencies to your app.
   
-   Procfile:
+   **Procfile:**
    
    Heroku will need to know what and how to lauch the app. This file tells it exactly what webserver to use and what to launch.
    * Open your favorite code editor and navigate to your app root folder.
@@ -48,10 +48,10 @@ Install Heroku CLI and Deploy your APP
 --------------
   Heroku is a Platform as a Service (PaaS) that allows you to leverage third party infrastructure for your app deployments. Apps are deployed via git in terminal and can be managed via web browser. To accomplish this we need to install the Heroku CLI so we can run our CLI commands.
   
-  Install:
+  **Install:**
    * Go to https://devcenter.heroku.com/articles/heroku-cli to download the file for your OS. Follow the installation instructions.
    
-  Sign in to Heroku CLI:
+  **Sign in to Heroku CLI:**
    * Open your terminal and run the following commands to log into your Heroku account.
       * $ heroku login
          * Enter your username and password when prompted
