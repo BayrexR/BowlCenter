@@ -12,6 +12,7 @@ div{
 .navbar{
     background-color: rgb(161, 0, 0);
     border-radius: 0px;
+    width: 100%;
 }
 
 .bowl_logo{
