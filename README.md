@@ -20,6 +20,7 @@ Prepare your Flask App for Heroku deployment
       * $ pip install gunicorn
    
   requirements.txt:
+  
    Heroku needs to know your dependencies. That is accomplished by creating a requirements.txt file using the following steps:
    * Make sure you are still in your app's root directory and your python enviroment is still active. If not follow the first two items in the webserver step.
    * Runnig the following command takes a snapshot of all your app dependencies and creates the requirements.txt in your current directory. Heroku will reference this file to pull all dependencies into the app.
@@ -27,6 +28,7 @@ Prepare your Flask App for Heroku deployment
       * You can run this command again to update your requirements.txt file if you add more dependencies to your app.
   
    Procfile:
+   
    Heroku will need to know what and how to lauch the app. This file tells it exactly what webserver to use and what to launch.
    * Open your favorite code editor and navigate to your app root folder.
    * Create a file titled "Procfile" (do not add an extension!)
