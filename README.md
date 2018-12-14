@@ -17,3 +17,7 @@ MAKE SURE THE FOLLOWING STEPS ARE TAKEN BEFORE THE WEBPAGE CAN RUN
 7)Open app.py in VSCode, scroll to bottom and run app on local host using Ctrl+Left Click --->(http://127.0.0.1:5000/)
 
 8)Once you have navigated to the Welcome page, the ETL Report is located in the hamburger menu under API Docs>ETL Process
+
+###OR.....###
+You can click this link to access the version of this app deployed to Heroku! :)
+https://bowl-center.herokuapp.com/

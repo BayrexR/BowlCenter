@@ -141,20 +141,20 @@
         <!--Roster onclick-->
         <script type='text/javascript'>
           document.getElementById('historyBTN').onclick = function () {
-              apiRoute = 'http://127.0.0.1:5000/apiV1.0/history'; 
+              apiRoute = 'https://bowl-center.herokuapp.com/apiV1.0/history'; 
               location.href = apiRoute;
           };
 
           document.getElementById('outcomeBTN').onclick = function () {
               var gYear = document.getElementById('outcomeYear');
-              apiRoute = 'http://127.0.0.1:5000/apiV1.0/outcome/' + gYear.value;
+              apiRoute = 'https://bowl-center.herokuapp.com/apiV1.0/outcome/' + gYear.value;
               location.href = apiRoute;
           };          
 
           document.getElementById('rosterBTN').onclick = function () {
               var bYear = document.getElementById('rosterYear');
               var bowl = document.getElementById('rosterBowl');
-              apiRoute = 'http://127.0.0.1:5000/apiV1.0/roster/' + bowl.value + '/' + bYear.value; 
+              apiRoute = 'https://bowl-center.herokuapp.com/apiV1.0/roster/' + bowl.value + '/' + bYear.value; 
               location.href = apiRoute;
           };
         </script>
